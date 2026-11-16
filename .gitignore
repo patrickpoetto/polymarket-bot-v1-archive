@@ -1,0 +1,28 @@
+# Environment & Secrets
+.env
+.env.backup*
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+
+# Historical price data / data dumps
+prices/
+archived_data/
+*.parquet
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
