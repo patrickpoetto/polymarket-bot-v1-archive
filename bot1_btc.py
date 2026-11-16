@@ -19,6 +19,7 @@ Price feed: WebSocket tick-by-tick stream (TickPriceFeed) with REST fallback.
 """
 import asyncio
 import json
+import os
 import time
 import logging
 import threading
@@ -44,6 +45,8 @@ except ImportError:
 from shared.redeem_positions import PositionRedeemer
 
 # ── Logging ──────────────────────────────────────────────────────────────────
+
+os.makedirs('logs/bot1_btc', exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,

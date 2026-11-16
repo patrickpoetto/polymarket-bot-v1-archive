@@ -11,6 +11,7 @@ __pycache__/
 
 # Logs
 logs/
+*.log
 
 # Historical price data / data dumps
 prices/
